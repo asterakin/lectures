@@ -26,7 +26,8 @@ It's as easy as 1, 2, ..., 19.
 16. Refresh the module or page periodically until your instance is in a running state.
 17. Select the instance and click "Connect".
 18. Follow the instructions in the pop-up. (Make sure you're in the same directory as your .pem file if you're copy-pasting their ssh code!).
-19. Done! Hopefully you are connected to your EC2 instance now. Use scp from localhost to copy over cifar10\_cnn.py.
+19. Done! Hopefully you are connected to your EC2 instance now. 
+20. Open a new terminal and copy over cifar10\_cnn.py. For example:  scp -i keyName.pem cifar10_cnn.py ubuntu@ec2-52-91-193-209.compute-1.amazonaws.com:~
 
 ## Spot Instances
 
